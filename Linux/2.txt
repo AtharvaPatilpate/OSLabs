@@ -1,0 +1,5 @@
+ls >a.txt
+chmod u+x a.txt
+chmod a-w+x a 
+alias rm='rm -i'
+who

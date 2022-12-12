@@ -1,0 +1,9 @@
+mv a.txt b.txt >res.txt
+ls -a
+chmod o+w res.txt
+chmod u-x res.txt
+tr a-z A-Z < a.txt
+
+ ln  [original filename] [link name]  #hard link
+ ln  -s [original filename] [link name] #soft link
+  cut -c 2,3 a.txt

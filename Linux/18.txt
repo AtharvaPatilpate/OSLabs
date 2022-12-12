@@ -1,0 +1,6 @@
+cp a.txt b.txt >res.txt
+grep -Ew '.{3}' res.txt
+chmod u+w res.txt
+chmod o+r res.txt
+alias ll='ls -a'
+wc a.txt

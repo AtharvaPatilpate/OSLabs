@@ -1,0 +1,8 @@
+cat b.txt >a.txt
+ls –a >hidden.txt
+chmod u+w a.txt
+chmod o-x a.txt
+ ln  [original filename] [link name]  #hard link
+ ln  -s [original filename] [link name] #soft link
+ tr a-z A-Z < a.txt
+  cut -c 1,10 a.txt
